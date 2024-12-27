@@ -1,0 +1,36 @@
+.header-container {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 2pt 16pt;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin-right: 30px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13pt;
+}
+
+header ul li :hover {
+    text-decoration: underline;
+}
