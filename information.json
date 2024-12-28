@@ -1,8 +1,12 @@
 {
     "content" : {
         "home" : {
-            "title" : "Motivum",
-            "subtitle" : "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc."
+            "home_title" : "Motivum",
+            "home_subtitle" : "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc."
+        },
+        "about" : {
+            "about_title" : "About us",
+            "about_description" : "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc."
         }
     } 
 }

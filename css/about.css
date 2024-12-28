@@ -1,0 +1,43 @@
+#about-container {
+    height: 100%;
+    width: 100%;
+
+    position: relative;
+}
+
+#about {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    /* padding: 0vw 20vh; */
+}
+
+#about #about-image img {
+    width: 25vw;
+    border-radius: 10px;
+}
+
+#about-description-container {
+    width: 25%;
+    height: 40%;
+    text-align: center;
+}
+#about-description-container span {
+    font-size: small;
+    
+}
+
+#about-title {
+    font-size: 7vw;
+    font-weight: 700;
+    font-style: normal;
+    /* text-shadow: 2px 2px 4px #000000;
+    color: aliceblue; */
+
+    position: absolute;
+    top: 10%;
+    left: 45vw;
+}
