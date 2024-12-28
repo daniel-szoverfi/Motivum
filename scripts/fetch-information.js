@@ -1,4 +1,6 @@
 import { fetchInformation } from './fetching.js';
+import { observeImages } from "./animations.js";
+
 
 fetchInformation(function(data) {
     document.getElementById('home-title').innerText = data.content.home.home_title;
@@ -9,7 +11,6 @@ fetchInformation(function(data) {
 });
 
 fetchInformation(function(data) {
-    // Load images
     const imageContainer = document.getElementById('gallery-images-container');
     const selectorContainer = document.getElementById('gallery-selector-container');
     const images = data.content.gallery.images;
@@ -20,8 +21,11 @@ fetchInformation(function(data) {
     images.slice(0, 10).forEach(image => {
         const img = document.createElement('img');
         img.src = image.path;
+        img.classList.add('appearing');
         imageContainer.appendChild(img);
     });
+
+    observeImages();
 
     categories.forEach(category => {
         const gallery_selector = document.createElement('span');
@@ -33,10 +37,14 @@ fetchInformation(function(data) {
             filteredImages.slice(0, 10).forEach(image => {
                 const img = document.createElement('img');
                 img.src = image.path;
+                img.classList.add('appearing');
+                console.log(img);
                 imageContainer.appendChild(img);
             });
+            observeImages();
         });
         selectorContainer.appendChild(gallery_selector);
     });
+
 });
 
