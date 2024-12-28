@@ -33,15 +33,17 @@
     position: absolute;
 }
 
-#home-content #title {
-    font-size: 8rem;
-    font-weight: bold;
+.shadowed-withe-character {
     color: #ffffff;
     text-shadow: 2px 2px 4px #000000;
 }
 
+#home-content #title {
+    font-size: 8rem;
+    font-weight: bold;
+    
+}
+
 #home-content #subtitle {
     font-size: 1rem;
-    color: #ffffff;
-    text-shadow: 2px 2px 4px #000000;
 }
