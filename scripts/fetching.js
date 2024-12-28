@@ -4,7 +4,7 @@ function fetchInformation(callbackFunction) {
             .then(response => response.json())
             .then(data => callbackFunction(data))
             .catch(error => console.error('Error loading information:', error));
-    }, 1);
+    }, 10);
 }
 
 function fetchComponent(source, callbackFunction) {
