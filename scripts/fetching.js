@@ -1,3 +1,4 @@
+
 function fetchInformation(callbackFunction) {
     setTimeout(() => {
         fetch('information.json')

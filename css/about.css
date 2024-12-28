@@ -1,18 +1,14 @@
 #about-container {
-    height: 100%;
-    width: 100%;
-
     position: relative;
 }
 
 #about {
-    height: 100vh;
+    height: 100%;
 
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4vw;
-    /* padding: 0vw 20vh; */
 }
 
 #about #about-image img {
@@ -34,8 +30,6 @@
     font-size: 7vw;
     font-weight: 700;
     font-style: normal;
-    /* text-shadow: 2px 2px 4px #000000;
-    color: aliceblue; */
 
     position: absolute;
     top: 10%;
