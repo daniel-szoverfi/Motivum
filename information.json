@@ -7,6 +7,32 @@
         "about" : {
             "about_title" : "About us",
             "about_description" : "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc."
+        },
+        "gallery" : {
+            "gallery_title" : "Gallery",
+            "gallery_categories" : [
+                {"name" : "Events"},
+                {"name" : "Museum"},
+                {"name" : "Dresses"}
+            ],
+            "images" : [
+                {"path" : "public/motivum-gallery/1.png", "type" : "events"},
+                {"path" : "public/motivum-gallery/2.png", "type" : "museum"},
+                {"path" : "public/motivum-gallery/3.png", "type" : "museum"},
+                {"path" : "public/motivum-gallery/4.png", "type" : "museum"},
+                {"path" : "public/motivum-gallery/5.png", "type" : "events"},
+                {"path" : "public/motivum-gallery/6.png", "type" : "events"},
+                {"path" : "public/motivum-gallery/7.png", "type" : "dresses"},
+                {"path" : "public/motivum-gallery/8.png", "type" : "dresses"},
+                {"path" : "public/motivum-gallery/9.png", "type" : "dresses"},
+                {"path" : "public/motivum-gallery/10.png", "type" : "events"},
+                {"path" : "public/motivum-gallery/11.png", "type" : "events"},
+                {"path" : "public/motivum-gallery/12.png", "type" : "events"},
+                {"path" : "public/motivum-gallery/13.png", "type" : "events"},
+                {"path" : "public/motivum-gallery/14.png", "type" : "events"},
+                {"path" : "public/motivum-gallery/15.png", "type" : "else"},
+                {"path" : "public/motivum-gallery/16.png", "type" : "museum"}
+            ]
         }
     } 
 }

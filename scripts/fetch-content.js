@@ -12,3 +12,7 @@ fetchComponent('sections/about.html', function(data) {
     document.getElementById('about-container').innerHTML = data;
 });
 
+fetchComponent('sections/gallery.html', function(data) {
+    document.getElementById('gallery-container').innerHTML = data;
+});
+
