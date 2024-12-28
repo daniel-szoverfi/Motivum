@@ -1,26 +1,4 @@
 {
-    "header" : [
-        {
-            "title" : "Home",
-            "link" : "#home"
-        },
-        {
-            "title" : "About",
-            "link" : "#about"
-        },
-        {
-            "title" : "Gallery",
-            "link" : "#gallery"
-        },
-        {
-            "title" : "Museum",
-            "link" : "#museum"
-        },
-        {
-            "title" : "Contact",
-            "link" : "#contact"
-        }    
-    ],
     "content" : {
         "home" : {
             "title" : "Motivum",

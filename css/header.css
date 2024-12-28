@@ -16,6 +16,11 @@ header {
     align-items: center;
 }
 
+header #header-logo {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
 header ul {
     display: flex;
     list-style: none;
@@ -28,7 +33,11 @@ header ul li {
 header ul li a {
     text-decoration: none;
     color: #000;
-    font-size: 13pt;
+    font-size: 11pt;
+
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header ul li :hover {
