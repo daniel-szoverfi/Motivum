@@ -11,9 +11,9 @@
         "gallery" : {
             "gallery_title" : "Gallery",
             "gallery_categories" : [
-                {"name" : "Events"},
-                {"name" : "Museum"},
-                {"name" : "Dresses"}
+                {"name" : "Events", "id" : "events-selector"},
+                {"name" : "Museum", "id" : "museum-selector"},
+                {"name" : "Dresses", "id" : "dresses-selector"}
             ],
             "images" : [
                 {"path" : "public/motivum-gallery/1.png", "type" : "events"},
@@ -37,6 +37,18 @@
         "museum" : {
             "museum_title" : "Museum",
             "museum_description" : "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc."
+        },
+        "footer" : {
+            "phone" : "+123456789",
+            "email" : "valami@gamil.com",
+            "address" : "Budapest, Hungary",
+            "facebook" : "https://www.facebook.com/profile.php?id=100077390375139"
         }
-    } 
+    },
+    "menu" : [
+        {"name" : "Home", "href" : "#home-container", "header_id" : "home-link-header", "footer_id" : "home-link-footer"},
+        {"name" : "About us", "href" : "#about-container", "header_id" : "about-link-header", "footer_id" : "about-link-footer"},
+        {"name" : "Gallery", "href" : "#gallery-container", "header_id" : "gallery-link-header", "footer_id" : "gallery-link-footer"},
+        {"name" : "Museum", "href" : "#museum-container", "header_id" : "museum-link-header", "footer_id" : "museum-link-footer"}
+    ]
 }

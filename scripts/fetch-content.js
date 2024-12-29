@@ -23,3 +23,7 @@ fetchComponent('sections/museum.html', function(data) {
     document.getElementById('museum-container').innerHTML = data;
 });
 
+fetchComponent('components/footer.html', function(data) {
+    document.getElementById('footer-container').innerHTML = data;
+});
+
