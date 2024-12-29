@@ -39,9 +39,8 @@ fetchInformation(function(data) {
     observeImages();
 
     categories.forEach(category => {
-        const gallery_selector = document.createElement('span');
+        const gallery_selector = document.getElementById(category.id);
         gallery_selector.innerText = category.name;
-        gallery_selector.id = 'gallery-selector';
         gallery_selector.addEventListener('click', function() {
             const filteredImages = images.filter(image => image.type.toLowerCase() === category.name.toLowerCase());
             imageContainer.innerHTML = '';
@@ -54,7 +53,6 @@ fetchInformation(function(data) {
             });
             observeImages();
         });
-        selectorContainer.appendChild(gallery_selector);
     });
 
     // Fetch the museum section information
@@ -64,7 +62,7 @@ fetchInformation(function(data) {
     // Fetch the footer section information
     document.getElementById('footer-phone').innerText = data.content.footer.phone;
     document.getElementById('footer-email').innerText = data.content.footer.email;
-    // document.getElementById('footer-facebook').innerText = 'link';
-    // document.getElementById('footer-facebook').href = data.content.footer.facebook;
+    document.getElementById('footer-address').innerText = data.content.footer.address;
+    document.getElementById('footer-facebook').href = data.content.footer.facebook;
 });
 
