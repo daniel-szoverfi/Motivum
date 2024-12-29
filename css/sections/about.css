@@ -9,7 +9,8 @@
     justify-content: center;
     align-items: center;
     gap: 4vw;
-
+    overflow-y: scroll;
+    scrollbar-width: none;
     position: relative;
 }
 
@@ -20,13 +21,12 @@
 
 #about-description-container {
     padding-top: 30px;
-    max-width: 25%;
+    width: 25vw;
     height: 50%;
     text-align: center;
-    overflow-y: scroll;
     display: flex;
     align-items: center;
-    scrollbar-width: none;
+    
 }
 #about-description-container span {
     font-size: small;
