@@ -48,3 +48,8 @@ fetchInformation(function(data) {
 
 });
 
+fetchInformation(function(data) {
+    document.getElementById('museum-title').innerText = data.content.museum.museum_title;
+    document.getElementById('museum-description').innerText = data.content.museum.museum_description;
+});
+

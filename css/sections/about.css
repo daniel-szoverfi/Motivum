@@ -17,13 +17,17 @@
 }
 
 #about-description-container {
-    width: 25%;
-    height: 40%;
+    padding-top: 30px;
+    max-width: 25%;
+    height: 50%;
     text-align: center;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    scrollbar-width: none;
 }
 #about-description-container span {
     font-size: small;
-    
 }
 
 #about-title {

@@ -33,6 +33,10 @@
                 {"path" : "public/motivum-gallery/15.png", "type" : "else"},
                 {"path" : "public/motivum-gallery/16.png", "type" : "museum"}
             ]
+        },
+        "museum" : {
+            "museum_title" : "Museum",
+            "museum_description" : "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc."
         }
     } 
 }
