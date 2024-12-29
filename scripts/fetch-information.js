@@ -53,3 +53,12 @@ fetchInformation(function(data) {
     document.getElementById('museum-description').innerText = data.content.museum.museum_description;
 });
 
+fetchInformation(function(data) {
+    document.getElementById('footer-phone').innerText = data.content.footer.phone;
+    document.getElementById('footer-email').innerText = data.content.footer.email;
+    // Give the footer link a href attribute
+    document.getElementById('footer-facebook').innerText = 'link';
+    document.getElementById('footer-facebook').href = data.content.footer.facebook;
+
+});
+

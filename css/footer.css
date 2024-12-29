@@ -1,0 +1,47 @@
+footer {
+    width: 100%;
+    height: 6vw;
+
+    background-color: black;
+}
+
+#footer {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5vw;
+    width: 20%;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5vw;
+    width: 60%;
+}
+
+footer span, footer a {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(68, 149, 224);
+}
+
+footer a :hover {
+    text-decoration: underline;
+}
