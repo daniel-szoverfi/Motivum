@@ -22,15 +22,19 @@ header #header-logo {
     margin-left: 20px;
 }
 
+
 header ul {
     display: flex;
     list-style: none;
+    margin: 2px;
 }
 
 header ul li {
     margin-right: 40px;
     display: flex;
     align-items: center;
+} header ul li :hover {
+    text-decoration: underline;
 }
 
 header ul li a {
@@ -43,8 +47,19 @@ header ul li a {
     font-style: normal;
 
     margin-left: 5px;
+} 
+
+#language-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
 }
 
-header ul li :hover {
-    text-decoration: underline;
+.flag-image {
+    width: 20px;
+    cursor: pointer;
+} .flag-image:hover {
+    opacity: 0.8;
 }
