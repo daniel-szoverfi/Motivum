@@ -23,6 +23,8 @@
 
     overflow-y: scroll;
     scrollbar-width: none;
+
+    position: relative;
 }
 
 #museum-title {

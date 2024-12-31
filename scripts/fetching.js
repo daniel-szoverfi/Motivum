@@ -1,7 +1,7 @@
 
-function fetchInformation(callbackFunction) {
+function fetchInformation(source, callbackFunction) {
     setTimeout(() => {
-        fetch('information.json')
+        fetch(source)
             .then(response => response.json())
             .then(data => callbackFunction(data))
             .catch(error => console.error('Error loading information:', error));

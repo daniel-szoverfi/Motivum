@@ -23,16 +23,14 @@
     margin-bottom: 20px;
 }
 
-#gallery-selector-container span {
+.gallery-selector-item span {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 11pt;
     cursor: pointer;
-    
-}
 
-#gallery-selector-container span:hover {
+} .gallery-selector-item span:hover {
     text-decoration: underline;
 }
 
