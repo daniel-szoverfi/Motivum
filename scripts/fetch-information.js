@@ -1,11 +1,9 @@
 import { fetchInformation } from './fetching.js';
 import { observeImages } from "./animations.js";
 
-fetchInformation(function(data) {
-    
+fetchInformation('information.json', function(data) { 
     // Fetch the header & footer information
     const header_menu = data.menu;
-    console.log(header_menu);
     header_menu.forEach(menu_item => {
         document.getElementById(menu_item.header_id).innerText = menu_item.name;
         document.getElementById(menu_item.header_id).href = menu_item.href;
@@ -21,38 +19,11 @@ fetchInformation(function(data) {
     document.getElementById('about-description').innerText = data.content.about.about_description;
     document.getElementById('about-title').innerText = data.content.about.about_title;
 
-    // Fetch the gallery section information
-    const imageContainer = document.getElementById('gallery-images-container');
-    const selectorContainer = document.getElementById('gallery-selector-container');
-    const images = data.content.gallery.images;
-    const categories = data.content.gallery.gallery_categories;
-
     document.getElementById('gallery-title').innerText = data.content.gallery.gallery_title;
-
-    images.slice(0, 10).forEach(image => {
-        const img = document.createElement('img');
-        img.src = image.path;
-        img.classList.add('appearing');
-        imageContainer.appendChild(img);
-    });
-
-    observeImages();
-
-    categories.forEach(category => {
-        const gallery_selector = document.getElementById(category.id);
-        gallery_selector.innerText = category.name;
-        gallery_selector.addEventListener('click', function() {
-            const filteredImages = images.filter(image => image.type.toLowerCase() === category.name.toLowerCase());
-            imageContainer.innerHTML = '';
-            filteredImages.slice(0, 10).forEach(image => {
-                const img = document.createElement('img');
-                img.src = image.path;
-                img.classList.add('appearing');
-                console.log(img);
-                imageContainer.appendChild(img);
-            });
-            observeImages();
-        });
+    const gallery_categories = data.content.gallery.gallery_categories;
+    const gallery_selector_container = document.getElementById('gallery-selector-container');
+    gallery_categories.forEach(category => {
+        document.getElementById(category.id).innerText = category.name;
     });
 
     // Fetch the museum section information
@@ -64,5 +35,25 @@ fetchInformation(function(data) {
     document.getElementById('footer-email').innerText = data.content.footer.email;
     document.getElementById('footer-address').innerText = data.content.footer.address;
     document.getElementById('footer-facebook').href = data.content.footer.facebook;
+});
+
+fetchInformation('gallery.json', function(data) {
+    const imageContainer = document.getElementById('gallery-images-container');
+
+    observeImages();
+
+    data.gallery_images.forEach(category => {
+        const gallery_selector = document.getElementById(category.id);
+        gallery_selector.addEventListener('click', function() {
+            imageContainer.innerHTML = '';
+            category.images.forEach(image => {
+                const img = document.createElement('img');
+                img.src = image.src;
+                img.classList.add('appearing');
+                imageContainer.appendChild(img);
+            });
+            observeImages();
+        });
+    });
 });
 

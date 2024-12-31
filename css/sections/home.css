@@ -35,12 +35,12 @@
     text-shadow: 2px 2px 4px #000000;
 }
 
-#home-content #home-title {
+#home-title {
     font-size: 8rem;
     font-weight: bold;
     
 }
 
-#home-content #home-subtitle {
+#home-subtitle {
     font-size: 1rem;
 }

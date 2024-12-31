@@ -1,0 +1,26 @@
+{
+    "gallery_images" : [
+                {"name" : "Events", "id" : "events-selector", "images" : [
+                    {"src" : "public/motivum-gallery/events/event1.png", "description" : "Event 1"},
+                    {"src" : "public/motivum-gallery/events/event2.png", "description" : "Event 2"},
+                    {"src" : "public/motivum-gallery/events/event3.png", "description" : "Event 3"},
+                    {"src" : "public/motivum-gallery/events/event4.png", "description" : "Event 4"},
+                    {"src" : "public/motivum-gallery/events/event5.png", "description" : "Event 5"},
+                    {"src" : "public/motivum-gallery/events/event6.png", "description" : "Event 6"},
+                    {"src" : "public/motivum-gallery/events/event7.png", "description" : "Event 7"},
+                    {"src" : "public/motivum-gallery/events/event8.png", "description" : "Event 8"}
+                ]},
+                {"name" : "Museum", "id" : "museum-selector", "images" : [
+                    {"src" : "public/motivum-gallery/museum/museum1.png", "description" : "Museum 1"},
+                    {"src" : "public/motivum-gallery/museum/museum2.png", "description" : "Museum 2"},
+                    {"src" : "public/motivum-gallery/museum/museum3.png", "description" : "Museum 3"},
+                    {"src" : "public/motivum-gallery/museum/museum4.png", "description" : "Museum 4"},
+                    {"src" : "public/motivum-gallery/museum/museum5.png", "description" : "Museum 5"}
+                ]},
+                {"name" : "Dresses", "id" : "dresses-selector", "images" : [
+                    {"src" : "public/motivum-gallery/dresses/dresses1.png", "description" : "Dress 1"},
+                    {"src" : "public/motivum-gallery/dresses/dresses2.png", "description" : "Dress 2"},
+                    {"src" : "public/motivum-gallery/dresses/dresses3.png", "description" : "Dress 3"}
+                ]}
+            ]
+}
