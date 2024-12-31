@@ -14,9 +14,35 @@
     position: relative;
 }
 
-#about-image img {
+#about-image-container {
+    height: 100%;
     width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+#about-images-insider-container {
+    width: 100%;
+    
+    position: relative;
+}
+
+#about-cover-image {
+    width: 100%;
     border-radius: 10px;
+}
+
+#about-founder-image {
+    width: 30%;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: -4%;
+    left: -6%;
+    z-index: 1;
 }
 
 #about-description-container {
