@@ -40,6 +40,13 @@ fetchInformation('information.json', function(data) {
 fetchInformation('gallery.json', function(data) {
     const imageContainer = document.getElementById('gallery-images-container');
 
+    data.gallery_images[0].images.forEach(image => {
+        const img = document.createElement('img');
+        img.src = image.src;
+        img.classList.add('appearing');
+        imageContainer.appendChild(img);
+    });
+
     observeImages();
 
     data.gallery_images.forEach(category => {
