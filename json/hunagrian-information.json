@@ -2,14 +2,14 @@
     "content" : {
         "home" : {
             "home_title" : "Motivum",
-            "home_subtitle" : "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc."
+            "home_subtitle" : "Ez az oldalunk"
         },
         "about" : {
-            "about_title" : "About us",
+            "about_title" : "Rólunk",
             "about_description" : "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc."
         },
         "gallery" : {
-            "gallery_title" : "Gallery",
+            "gallery_title" : "Galéria",
             "gallery_categories" : [
                 {"name" : "Events", "id" : "events-selector"},
                 {"name" : "Museum", "id" : "museum-selector"},
@@ -17,7 +17,7 @@
             ]
         },
         "museum" : {
-            "museum_title" : "Museum",
+            "museum_title" : "Múzeum",
             "museum_description" : "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc."
         },
         "footer" : {
@@ -28,9 +28,9 @@
         }
     },
     "menu" : [
-        {"name" : "Home", "href" : "#home-container", "header_id" : "home-link-header", "footer_id" : "home-link-footer"},
-        {"name" : "About us", "href" : "#about-container", "header_id" : "about-link-header", "footer_id" : "about-link-footer"},
-        {"name" : "Gallery", "href" : "#gallery-container", "header_id" : "gallery-link-header", "footer_id" : "gallery-link-footer"},
-        {"name" : "Museum", "href" : "#museum-container", "header_id" : "museum-link-header", "footer_id" : "museum-link-footer"}
+        {"name" : "Főoldal", "href" : "#home-container", "header_id" : "home-link-header", "footer_id" : "home-link-footer"},
+        {"name" : "Rólunk", "href" : "#about-container", "header_id" : "about-link-header", "footer_id" : "about-link-footer"},
+        {"name" : "Galéria", "href" : "#gallery-container", "header_id" : "gallery-link-header", "footer_id" : "gallery-link-footer"},
+        {"name" : "Múzeum", "href" : "#museum-container", "header_id" : "museum-link-header", "footer_id" : "museum-link-footer"}
     ]
 }

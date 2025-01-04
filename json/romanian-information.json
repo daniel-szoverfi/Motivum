@@ -1,0 +1,36 @@
+{
+    "content" : {
+        "home" : {
+            "home_title" : "Motivum",
+            "home_subtitle" : "Această este site-ul nostru"
+        },
+        "about" : {
+            "about_title" : "Despre noi",
+            "about_description" : "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc."
+        },
+        "gallery" : {
+            "gallery_title" : "Galerie",
+            "gallery_categories" : [
+                {"name" : "Evenimente", "id" : "events-selector"},
+                {"name" : "Muzeu", "id" : "museum-selector"},
+                {"name" : "Rochii", "id" : "dresses-selector"}
+            ]
+        },
+        "museum" : {
+            "museum_title" : "Muzeu",
+            "museum_description" : "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc."
+        },
+        "footer" : {
+            "phone" : "+123456789",
+            "email" : "valami@gamil.com",
+            "address" : "Budapest, Hungary",
+            "facebook" : "https://www.facebook.com/profile.php?id=100077390375139"
+        }
+    },
+    "menu" : [
+        {"name" : "Home", "href" : "#home-container", "header_id" : "home-link-header", "footer_id" : "home-link-footer"},
+        {"name" : "Despre noi", "href" : "#about-container", "header_id" : "about-link-header", "footer_id" : "about-link-footer"},
+        {"name" : "Galerie", "href" : "#gallery-container", "header_id" : "gallery-link-header", "footer_id" : "gallery-link-footer"},
+        {"name" : "Muzeu", "href" : "#museum-container", "header_id" : "museum-link-header", "footer_id" : "museum-link-footer"}
+    ]
+}

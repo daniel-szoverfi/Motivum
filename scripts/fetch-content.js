@@ -1,8 +1,6 @@
 import { fetchComponent } from "./fetching.js";
 import { observeImages } from "./animations.js";
 
-
-
 fetchComponent('components/header.html', function(data) {
     document.getElementById('header-container').innerHTML = data;
 });
@@ -26,4 +24,5 @@ fetchComponent('sections/museum.html', function(data) {
 fetchComponent('components/footer.html', function(data) {
     document.getElementById('footer-container').innerHTML = data;
 });
+
 
