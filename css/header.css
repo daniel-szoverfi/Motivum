@@ -27,27 +27,27 @@ header ul {
     display: flex;
     list-style: none;
     margin: 2px;
+
+    li {
+        margin-right: 40px;
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+            font-size: 11pt;
+            font-family: "Poppins", serif;
+            font-weight: 400;
+        
+            margin-left: 5px;
+        }
+    }
 }
-
-header ul li {
-    margin-right: 40px;
-    display: flex;
-    align-items: center;
-} header ul li :hover {
-    text-decoration: underline;
-}
-
-header ul li a {
-    text-decoration: none;
-    color: #000;
-    font-size: 11pt;
-
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
-
-    margin-left: 5px;
-} 
 
 #language-button-container {
     display: flex;
@@ -55,11 +55,14 @@ header ul li a {
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+
+    .flag-image {
+        width: 20px;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
 }
 
-.flag-image {
-    width: 20px;
-    cursor: pointer;
-} .flag-image:hover {
-    opacity: 0.8;
-}

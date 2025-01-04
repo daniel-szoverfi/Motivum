@@ -20,7 +20,15 @@
                 {"name" : "Dresses", "id" : "dresses-selector", "images" : [
                     {"src" : "public/motivum-gallery/dresses/dresses1.png", "description" : "Dress 1"},
                     {"src" : "public/motivum-gallery/dresses/dresses2.png", "description" : "Dress 2"},
-                    {"src" : "public/motivum-gallery/dresses/dresses3.png", "description" : "Dress 3"}
+                    {"src" : "public/motivum-gallery/dresses/dresses3.png", "description" : "Dress 3"},
+                    {"src" : "public/motivum-gallery/dresses/dresses4.jpg", "description" : "Dress 4"},
+                    {"src" : "public/motivum-gallery/dresses/dresses5.jpg", "description" : "Dress 5"},
+                    {"src" : "public/motivum-gallery/dresses/dresses6.jpg", "description" : "Dress 6"},
+                    {"src" : "public/motivum-gallery/dresses/dresses7.jpg", "description" : "Dress 7"},
+                    {"src" : "public/motivum-gallery/dresses/dresses8.jpg", "description" : "Dress 8"},
+                    {"src" : "public/motivum-gallery/dresses/dresses9.jpg", "description" : "Dress 9"},
+                    {"src" : "public/motivum-gallery/dresses/dresses10.jpg", "description" : "Dress 10"},
+                    {"src" : "public/motivum-gallery/dresses/dresses11.jpg", "description" : "Dress 11"}
                 ]}
             ]
 }
