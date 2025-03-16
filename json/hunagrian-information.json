@@ -11,9 +11,9 @@
         "gallery" : {
             "gallery_title" : "Galéria",
             "gallery_categories" : [
-                {"name" : "Events", "id" : "events-selector"},
-                {"name" : "Museum", "id" : "museum-selector"},
-                {"name" : "Dresses", "id" : "dresses-selector"}
+                {"name" : "Események", "id" : "events-selector"},
+                {"name" : "Múzeum", "id" : "museum-selector"},
+                {"name" : "Ruháink", "id" : "dresses-selector"}
             ]
         },
         "museum" : {
