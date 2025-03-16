@@ -20,6 +20,13 @@
     display: flex;
     justify-content: right;
     margin-bottom: 20px;
+
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 65px;
+    background-color: rgb(248, 252, 255); /* Match the background color */
+    z-index: 10000; /* Ensure it stays above other content */
+    padding: 10px 0;
 }
 
 .gallery-selector-item span {
